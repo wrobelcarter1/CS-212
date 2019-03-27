@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue;
+}
+
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  border-color: pink;
+  color: black;
+  background-color: pink;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+  color: blue;
+  background-color: white;
+  width: 40%;
+}
+
+a {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}

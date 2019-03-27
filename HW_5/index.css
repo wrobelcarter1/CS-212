@@ -1,0 +1,30 @@
+body {
+  background-color: #D34244;
+}
+
+#header {
+  background-color: #1150F4;
+}
+
+.headers {
+  font-family: "Lucida Sans Unicode", Helvetica, Arial;
+}
+
+#lowerheader1, #lowerheader2 {
+  background-color: white;
+  color: #1150F4;
+}
+
+img {
+  position: absolute;
+  height: 240px;
+  width: 400px;
+  left: 70%;
+  top: 17.5%;
+}
+
+.list {
+  list-style-type: circle;
+  display: table-cell;
+  width: 60em;
+}

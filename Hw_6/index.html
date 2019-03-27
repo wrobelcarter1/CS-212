@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tip Calculator</title>
+  <meta name="description" content="DESCRIPTION">
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+
+  <h1>Restaurant Bill Calculator</h1>
+  <form class="forms" action="index.html" method="post">
+    <label>Tax Percent:</label>
+    <input class="error" id="taxpercent" type="number" min="0" max="100" step="0.01" required/>%
+    <br>
+    <br>
+    <label>Price from the menu:</label>
+    <input type="number" id="price" min="0" max="1000" step="0.01" required/>
+    <br>
+    <label>Tip percent:</label>
+    <input class="error" type="number" id="tippercent" min="0" max="200" required/>%
+    <br>
+    <br>
+    <input type="button" value="Calculate Bill" onclick="calculate()" />
+  </form>
+
+  <div id="test"></div>
+  <div id="priceresult"></div>
+  <div id="taxresult"></div>
+  <div id="tipresult"></div>
+  <div id="totalresult"></div>
+
+
+</body>
+
+</html>

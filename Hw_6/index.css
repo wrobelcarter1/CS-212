@@ -1,0 +1,28 @@
+form {
+  width: 45%;
+}
+
+label, input {
+  display: inline-block;
+}
+
+#price {
+  margin-bottom: 5px;
+}
+
+label {
+  width: 30%;
+  text-align: right;
+}
+
+input:focus:valid {
+  background-color: #41E860;
+}
+
+input:focus:invalid {
+  background-color: #F8637D;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
